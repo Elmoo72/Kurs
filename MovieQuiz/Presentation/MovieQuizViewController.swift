@@ -47,11 +47,11 @@ final class MovieQuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let customFont = UIFont(name: "YS Display-Medium", size: 20)
+        let customFont = UIFont(name: "YS Display Medium", size: 20)
         
-        textLabel.font = UIFont(name: "YS Display-Bold", size: 23)
-        counterLabel.font = UIFont(name: "YS Display-Medium", size: 20)
-        quizeLabel.font = UIFont(name: "YS Display-Medium", size: 20)
+        textLabel.font = UIFont(name: "YS Display Bold", size: 23)
+        counterLabel.font = UIFont(name: "YS Display Medium", size: 20)
+        quizeLabel.font = UIFont(name: "YS Display Medium", size: 20)
         yesButton.titleLabel?.font = customFont
         noButton.titleLabel?.font = customFont
         DispatchQueue.main.async {
