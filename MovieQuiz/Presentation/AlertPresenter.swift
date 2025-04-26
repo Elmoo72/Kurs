@@ -22,7 +22,7 @@ class AlertPresenter {
         
         alert.addAction(action)
         
-        // Показываем алерт
+        
         viewController?.present(alert, animated: true, completion: nil)
     }
 }

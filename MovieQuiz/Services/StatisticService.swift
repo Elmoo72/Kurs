@@ -49,10 +49,10 @@ final class StatisticService: StatisticServiceProtocol {
         storage.set(oldCorrect + count, forKey: Keys.correct.rawValue)
         storage.set(oldTotal + amount, forKey: Keys.total.rawValue)
 
-        // Увеличиваем количество игр
+        
         gamesCount += 1
 
-        // Проверяем, лучше ли текущий результат
+       
         let currentGame = GameResult(correct: count, total: amount, date: Date())
         if currentGame.isBetterThan(bestGame) {
             bestGame = currentGame
