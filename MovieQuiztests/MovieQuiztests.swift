@@ -25,7 +25,6 @@ class MoviesLoaderTests: XCTestCase {
         waitForExpectations(timeout: 1)
     }
     
-    
     func testFailureLoading() throws {
         // Given
         let stubNetworkClient = StubNetworkClient(emulateError: true) // говорим, что хотим эмулировать ошибку
